@@ -50,3 +50,77 @@ console.log
 
 What does unary plus operator do to string 
 representations of integers? It will convert the string into a number. 
+
+
+What are the eight data types in JavaScript? number, bigint, string, boolean, null, undefined, object symobl, 
+
+Which data type is NOT primitive? object
+
+What is the relationship between null and undefined? null references a non exisitng object while undefined references a undefined value.
+
+What is the difference between single, double, and backtick quotes for strings? Sinlge and double quotes are the same a backtick is used to create a template literal. A template literal allows you to use variables insdie the string. 
+
+What is the term for embedding variables/expressions in a string? Template literal
+
+Which type of quote lets you embed variables/expressions in a string?  ` ` 
+
+How do you embed variables/expressions in a string?
+$()
+
+How do you escape characters in a string?
+'I/'m okay'  /'
+
+What is the difference between the slice/substring/substr string methods? 
+1)Slice extracts a part of a string and returns the extracked part in a new string.
+2)Substring is the same expect it cannont accept negative indexs.
+3)Substr species the length of the extracted part. 
+
+What are the three logical operators and what do they stand for?
+|| or
+&& and
+!NOT
+
+What are the comparison operators?
+a>b greater then
+a<b less then
+a == b equals
+a!=b not equals to
+
+What are truthy and falsy values?
+0, empty string, null, undefined and NaN all become false so they are falsy values
+Any other value that is true is a truthy value. 
+
+What are the falsy values in JavaScript?
+0, empty string, null, undefined and NaN
+
+What are conditionals?
+Conditional statements are used to perform different actions based on different conditions.
+
+
+What is the syntax for an if/else conditional?
+if {
+
+}
+else {
+}
+
+What is the syntax for a switch statement?
+switch (x) {
+  case 0:
+  break
+  case1:
+  break
+}
+
+What is the syntax for a ternary operator?
+condition ? run this code : run this code instead
+
+What is nesting?
+A if else statement within a if else statment
+if (x===y) {
+  if(x<y>)
+  run this code
+else if {
+  run this code
+  }
+}
