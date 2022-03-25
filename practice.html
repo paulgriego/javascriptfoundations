@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    function addseven (number) {
+    let numberplusseven = number + 7
+    console.log(numberplusseven)
+    }
+
+    addseven(9)
+    addseven(7)
+    addseven(0)
+
+    function multiplyab (a,b) {
+      let total = a * b
+      console.log(total)
+    }
+    multiplyab(5,5)
+    multiplyab(10,5)
+    multiplyab(-2,4)
+
+    function capitalizestring(string) {
+        first_letter = string.charAt(0);
+        let capitalize = first_letter.toUpperCase();
+        let splicedstring= string.slice(1);
+        let result = capitalize+splicedstring
+        console.log(result);
+    }
+
+    function lastletter(x) {
+      let y = x.substring(x.length -1);
+      console.log (y);
+
+    }
+
+    capitalizestring("testing how is it going")
+    capitalizestring("entering input")
+    lastletter("doesthiswork")
+    lastletter("somestringandstuff")
+
+  </script>
+  
+</body>
+</html>
